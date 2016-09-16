@@ -1,0 +1,11 @@
+ 
+<suite name="E-commerce" parallel="methods" thread-count="3" >
+  <test name=" Sanity Test">
+   
+    <classes>
+      <class name="testNGgroups.NewTest "/>
+       
+    </classes>
+  </test> 
+</suite>  
+
