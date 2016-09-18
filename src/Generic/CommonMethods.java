@@ -16,7 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CommonMethods{
  
-  public void static login( String username, String password) throws Exception{
+  public static void login( String username, String password) throws Exception{
   driver.get(baseUrl);
   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 
   driver.findElement(By.id("username")).clear();
